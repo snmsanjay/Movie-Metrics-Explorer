@@ -11,6 +11,7 @@ sql
 Copy code
 CREATE TABLE IMDB_movies(
    Sl_No        INTEGER  NOT NULL PRIMARY KEY 
+   
   ,Name         VARCHAR(68) NOT NULL
   ,Release_Year INTEGER  NOT NULL
   ,Duration     INTEGER  NOT NULL
