@@ -6,30 +6,6 @@ Movie-Metrics-Explorer is a project that involves SQL queries on the IMDb Top 25
 
 ## Dataset
 The IMDb Top 250 Movies dataset is stored in the IMDB_movies table, which has the following schema:
-
-
-CREATE TABLE IMDB_movies(
-   Sl_No        INTEGER  NOT NULL PRIMARY KEY 
-   
-  ,Name         VARCHAR(68) NOT NULL
-  
-  ,Release_Year INTEGER  NOT NULL
-  
-  ,Duration     INTEGER  NOT NULL
-  
-  ,Certificate  VARCHAR(3) NOT NULL
-  
-  ,Rating       NUMERIC(3,1) NOT NULL
-  
-  ,Votes        INTEGER  NOT NULL
-  
-  ,Director     VARCHAR(32) NOT NULL
-  
-  ,Stars        VARCHAR(62) NOT NULL
-  
-  ,Description  VARCHAR(239) NOT NULL
-
-);
 The columns in the table include:
 
 1. Sl_No: A unique identifier for each movie.
